@@ -1,0 +1,45 @@
+/* Centralizar o conteúdo na página */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilo para o título */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Margem entre os campos do formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Botões de ação */
+.btn {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Estilo para o resultado */
+h2 {
+    font-size: 24px;
+    color: #28a745;
+    font-weight: 500;
+}
+
+/* Ajuste de tamanho em telas menores */
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Ajuste para o resultado */
+.alert {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
